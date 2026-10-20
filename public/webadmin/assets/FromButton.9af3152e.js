@@ -1,0 +1,1 @@
+import{j as t}from"./index.6a14a9b9.js";const s=({formId:e})=>t("div",{className:"lg:col-span-2 col-span-1 ml-auto",children:t("div",{className:"ltr:text-right rtl:text-left",children:t("button",{type:"submit",form:e,className:"btn btn-dark text-center",children:"Submit"})})});export{s as B};

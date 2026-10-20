@@ -1,0 +1,1 @@
+import{j as r,F as e}from"./index.6a14a9b9.js";import{C as o}from"./Card.9faf2474.js";const t=()=>(console.log(""),r(e,{children:r(o,{children:r("h4",{className:"card-title",children:"ApproveUser"})})}));export{t as default};

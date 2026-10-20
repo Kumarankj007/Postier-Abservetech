@@ -1,0 +1,53 @@
+.cmspage p , ul , li , h1 , h2 , h3 , h4 , h5 , h6 {
+    margin-bottom: 20px;
+  }
+  .cmspage h2 ,h3 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .cmspage h1 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+  .cmspage strong {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .cmspage table {
+    text-indent: 0;
+    border-color: grey;
+    border-collapse: collapse;
+    border: 1px solid gray;
+  }
+  .cmspage td {
+    border-right: 1px solid gray;
+    padding: 15px;
+  }
+  .cmspage tr {
+    border: 1px solid gray;
+  }
+  .cmspage input , select , textarea {
+    width: 200px;
+    border: 1px solid gray;
+  }
+  .cmspage button{
+    border: 1px solid grey;
+    padding: 5px 10px;
+    background: #e6e6e6;
+  }   
+  .cmspage th {
+    text-align: left;
+    border-right: 1px solid gray;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .cmspage a{
+    text-decoration: underline;
+      color: blue;
+  }
+  .cmspage li{
+    list-style: disc;
+    margin-left: 60px;
+  }

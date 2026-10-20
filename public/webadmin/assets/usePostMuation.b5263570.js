@@ -1,0 +1,1 @@
+import{u as a}from"./useMutation.932e2a73.js";import{m as n,n as u,Q as o}from"./index.6a14a9b9.js";const i=e=>{const t=n();return a({mutationFn:u,onSuccess:s=>{const r=s.message.charAt(0).toUpperCase()+s.message.slice(1).toLowerCase();o.success(r),e&&t(e)},onError:s=>{console.log("err",s),o.error(s.message)}})};export{i as u};

@@ -1,0 +1,5 @@
+import{D as p,m as b,a as r,j as a,I as v}from"./index.6a14a9b9.js";const u=({children:o,title:s,subtitle:e,headerslot:c,className:i="custom-class",bodyClass:l="p-6",noborder:n,footer:d,backIcon:m=!1,titleClass:t="custom-class"})=>{const[h]=p(),N=b();return r("div",{className:`
+        card rounded-md bg-white dark:bg-slate-800  p-0 ${h==="bordered"?" border border-slate-200 dark:border-slate-700":"shadow-base"}
+   
+    ${i}
+        `,children:[(s||e)&&r("header",{className:`card-header ${n?"no-border":""} p-6 min-h-[95px]`,children:[r("div",{className:"flex items-center",children:[m&&a("div",{className:"cursor-pointer",onClick:()=>N(-1),children:a(v,{icon:"heroicons-outline:arrow-sm-left",className:"w-[30px] h-[30px] mr-4"})}),s&&a("div",{className:`card-title ${t}`,children:s}),e&&a("div",{className:"card-subtitle",children:e})]}),c&&a("div",{className:"card-header-slot",children:c})]}),a("main",{className:`card-body ${l}`,children:o}),d&&a("footer",{className:"card-footer mt-[50px]",children:d})]})};export{u as C};
