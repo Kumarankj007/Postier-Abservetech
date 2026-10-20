@@ -1,0 +1,16 @@
+package-lock.json
+
+/node_modules/
+/logs/
+
+/public/**/*.jpg
+/public/**/*.jpeg
+/public/**/*.png
+/public/**/*.svg
+
+!/public/**/default.jpg
+!/public/**/default.png
+!/public/static-html/
+!/public/shareTrip/
+!/public/stripe/
+/public/temp/auth/Parcel/

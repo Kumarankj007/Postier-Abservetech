@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Postier</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @font-face {
+            font-family: Ubuntu-Regular;
+            src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+        }
+
+        body,
+        html {
+            font-family: Ubuntu-Regular;
+            font-size: 15px;
+            color: #666666;
+            height: 100%;
+            background-color: #fff;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            margin: 0px;
+            padding: 0px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .txt-center {
+            text-align: center;
+        }
+
+        .p-b-43 {
+            padding-bottom: 43px;
+        }
+
+        .p-b-10 {
+            padding-bottom: 10px;
+        }
+
+        .p-t-50 {
+            padding-top: 50px;
+        }
+
+        .p-b-80 {
+            padding-bottom: 80px;
+        }
+
+        .p-l-15 {
+            padding-left: 15px;
+        }
+
+        .p-r-15 {
+            padding-right: 15px;
+        }
+
+        .p-b-30 {
+            padding-bottom: 30px;
+        }
+
+        .size1 {
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        .wsize2 {
+            max-width: 526px;
+        }
+
+        .w-full {
+            width: 100%;
+        }
+
+        .flex-w {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        .flex-w {
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            -o-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        .flex-col-c,
+        .flex-col-c-sb {
+            -webkit-flex-direction: column;
+            -moz-flex-direction: column;
+            -ms-flex-direction: column;
+            -o-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .flex-col-c,
+        .flex-col-c-sb {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        .flex-col-c {
+            -ms-align-items: center;
+            align-items: center;
+        }
+
+        .v-center {
+            align-items: center;
+            top: 50%;
+            position: absolute;
+        }
+
+        .flex-col-c-sb {
+            justify-content: space-between;
+            -ms-align-items: center;
+            align-items: center;
+        }
+
+        .copyright-text {
+            font-size: 14px;
+            color: #fff;
+            line-height: 1.5;
+            bottom: 0;
+            position: absolute;
+        }
+
+        .l1-txt1 {
+            font-family: Ubuntu-Bold;
+            font-size: 60px;
+            color: #fff;
+            line-height: 1.2;
+            text-transform: uppercase;
+        }
+
+        .l1-txt2 {
+            font-family: Ubuntu-Regular;
+            font-size: 24px;
+            color: #fff;
+            line-height: 1.5;
+        }
+
+        .bg-g1 {
+            background: #fb5f7e;
+            background: -webkit-linear-gradient(bottom, #cc00ff, #006fff);
+            background: -o-linear-gradient(bottom, #f77062, #fe5196);
+            background: -moz-linear-gradient(bottom, #f77062, #fe5196);
+            background: linear-gradient(bottom, #f77062, #fe5196);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-b-30">
+        <div class="flex-col-c w-full v-center">
+
+            <h3 class="l1-txt1 txt-center p-b-10">
+                Postier
+            </h3>
+
+            <p class="txt-center l1-txt2 p-b-43 wsize2">
+                is on the way
+            </p>
+        </div>
+        <span class="copyright-text txt-center">
+            @ Postier 2025
+        </span>
+    </div>
+</body>
+
+</html>
